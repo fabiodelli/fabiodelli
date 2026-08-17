@@ -48,6 +48,15 @@ i contenuti, e il GDPR, che impone di tracciare la provenienza di ogni dato. Il 
 conserva il `place_id` e ciò che produce l'operatore; il resto si riscarica live.
 `Next.js 16 · React 19 · Supabase · Google Places e PageSpeed · Anthropic SDK`
 
+**[catalog-normalizer](https://github.com/fabiodelli/catalog-normalizer)** — Prende righe
+prodotto scritte da esseri umani in fonti diverse e produce un catalogo strutturato, più un
+registro di tutto ciò che ha rifiutato con il motivo. Le regole deterministiche risolvono
+quanto possono; solo il residuo ambiguo passa a un modello, e ogni valore proposto ripassa
+dalle stesse regole prima di entrare — un colore fuori tavolozza o un EAN con checksum
+errato viene rifiutato chiunque lo abbia scritto. I numeri realmente ambigui (`1,234`)
+vengono respinti invece che indovinati. Primo progetto in Rust, dichiarato come tale.
+`Rust · 60 test offline · output strutturati e contabilizzazione dei token`
+
 **[faidate-planner](https://github.com/fabiodelli/faidate-planner)** — Descrivi un lavoro
 fai-da-te e ottieni un piano a fasi con la lista materiali. Le quantità passano sempre da
 `material_specs` a `calc_quantity`: consumi reali per metro quadro e aritmetica in
