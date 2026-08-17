@@ -18,12 +18,12 @@ deterministiche e da dati verificati, mai da una stima a testo libero del modell
 ### Progetti
 
 **[softale](https://github.com/fabiodelli/softale)** — Piattaforma di audio storytelling
-generato con AI. Prodotto mio, online su [softale.app](https://softale.app) con abbonamenti.
-Una storia non è un MP3: è voce, musica e ambiente su tracce separate, ricomposte nel
-browser da un motore audio scritto a mano su `HTMLAudioElement`, con crossfade e mixer
-per l'ascoltatore. La pipeline di produzione mette in fila Claude per concept e testi,
-un server TTS locale e Stable Audio, e assembla con ffmpeg riusando i sottofondi già
-generati.
+generato con AI, progettata e costruita da solo. Una storia non è un MP3: è voce, musica e
+ambiente su tracce separate, ricomposte nel browser da un motore audio scritto a mano su
+`HTMLAudioElement`, con crossfade e mixer per l'ascoltatore. La pipeline di produzione mette
+in fila Claude per concept e testi, un server TTS locale e Stable Audio, e assembla con
+ffmpeg riusando i sottofondi già generati — che è anche la principale voce di risparmio.
+Completa e funzionante; non ancora lanciata pubblicamente.
 `Next.js 16 · TypeScript · Supabase · Stripe · Zustand · ffmpeg`
 
 **[villa-levante-demo](https://github.com/fabiodelli/villa-levante-demo)** — Assistente AI
