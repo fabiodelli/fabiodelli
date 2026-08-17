@@ -57,4 +57,22 @@ strutturare il piano, non quanta vernice serve.
 
 ---
 
+### Lavoro di squadra
+
+**BoolBnB** — Piattaforma di annunci per affitti brevi, costruita in cinque persone
+durante il bootcamp nel 2023: Laravel per backend e API, Vue per il front.
+Fork dei repo del team:
+[backend](https://github.com/fabiodelli/team_3_boolbnb_back) ·
+[frontend](https://github.com/fabiodelli/team_3_boolbnb_front) —
+originali di [@luca-macedone](https://github.com/luca-macedone).
+
+Il mio contributo, in 79 commit: lato Laravel la feature delle visualizzazioni
+end-to-end — model, relazione con `Apartment`, policy, CRUD del controller,
+autorizzazione sui metodi di lettura — e le statistiche della dashboard (visite totali,
+appartamento più visto), con la rotta API poi consumata dal front. Lato Vue i metodi di
+chiamata API nello state, la ricerca semplice e quella avanzata, le card dei risultati e
+parte del layout.
+
+---
+
 Per lavoro o collaborazioni: [fabiodelli.com](https://www.fabiodelli.com/contact)
